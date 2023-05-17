@@ -26,6 +26,7 @@ if (mysqli_query($conn, $sql)){
 }else{
 	echo "Erro" . $sql . '<br>' . mysqli_error($conn); //mensagem de erro se a conexao falha e mostra o erro
 }
-mysqli_close($conn); //fecha a conexão se enviar os dados
+mysqli_close($conn);
+//fecha a conexão se enviar os dados
 
 ?>
